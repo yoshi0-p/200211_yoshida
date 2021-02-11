@@ -272,8 +272,21 @@ body {
   font-size: 16px;
 }
 
-.header-nav a {
-  color: #fff;
+.header-nav  a{
+  color: white;
+  
 }
 
+@media screen and (max-width: 768px) {
+.top-footer .header-logo {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    
+  }
+.header-nav {
+  display:none;
+}
+
+}
 </style>

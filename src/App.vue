@@ -545,9 +545,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .header-nav {
-    display: none;
-  }
+
   .catchcopy {
     top: 50%;
     left: 50%;
@@ -595,44 +593,8 @@ body {
   .faq-title {
     font-size: 30px;
   }
-  .top-footer .header-logo {
-    margin: 0;
-    width: 100%;
-    text-align: center;
-  }
-  #hamburger {
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    cursor: pointer;
-    z-index: 100;
-    top: 15px;
-    right: 20px;
-    transition: 0.4s;
-    display: block;
-  }
-  #hamburger span {
-    display: block;
-    width: 35px;
-    height: 2px;
-    background-color: #fff;
-    transition: 0.8s;
-  }
-  #hamburger span:nth-of-type(1) {
-    position: absolute;
-    top: 10px;
-    left: 2px;
-  }
-  #hamburger span:nth-of-type(2) {
-    position: absolute;
-    top: 20px;
-    left: 2px;
-  }
-  #hamburger span:nth-of-type(3) {
-    position: absolute;
-    top: 30px;
-    left: 2px;
-  }
+  
+  
 }
 </style>
 
